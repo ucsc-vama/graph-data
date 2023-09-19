@@ -12,8 +12,8 @@
 #include "timer.h"
 #include "json.hpp"
 
-/* This .cc file computes the median of partitions by storing the out degrees
-  of each vertex in each partition in a 2d vector*/
+/* This .cc file calculates the median of partitions by using a 2-d vector 
+   to store the out degrees of each vertex in each partition, using the sort hash.*/
 
 using json::JSON;
 using namespace std;

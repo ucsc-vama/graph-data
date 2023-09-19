@@ -14,6 +14,14 @@ sort_imbalance	:	sort_imbalance.o
 		$(CC) -o sort_imbalance sort_imbalance.o
 sort_imbalance.o	:	sort_imbalance.cc
 		$(CC) -c sort_imbalance.cc
+jch_median	:	median.o
+		$(CC) -o median median.o
+jch_median.o	:	median.cc
+		$(CC) -c median.cc
+jch_vertex	:	jch_vertex.o
+		$(CC) -o jch_vertex jch_vertex.o
+jch_vertex.o	:	jch_vertex.cc
+		$(CC) -c jch_vertex.cc
 clean	:
 		rm -f hash hash.o median median.o sort_imbalance sort_imbalance.o
 infer	:
