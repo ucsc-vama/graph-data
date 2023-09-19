@@ -47,7 +47,7 @@ JSON generate_json_data(const std::string &hash_name, int &partitions, const JSO
     all_data["graph"] = "kron";
     all_data["hash"] = hash_name;
     all_data["partition"] = partitions;
-    all_data["median array"] = out;
+    all_data["num of vertices array"] = out;
     return all_data;
 }
 void find_imbalance(const Graph &g, int maxP) {
