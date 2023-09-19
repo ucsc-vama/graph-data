@@ -13,7 +13,6 @@
 #include "json.hpp"
 using json::JSON;
 
-
 /*This file computes the load imbalance of many hash functions : jch, cyclic, range, snake, and ,rotation */
 
  using namespace std;
