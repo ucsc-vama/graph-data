@@ -1,5 +1,3 @@
-// Copyright (c) 2018, The Hebrew University of Jerusalem (HUJI, A. Barak)
-// See LICENSE.txt for license details
 #include <algorithm>
 #include <cinttypes>
 #include <iostream>
@@ -14,19 +12,6 @@
 #include "timer.h"
 #include "json.hpp"
 using json::JSON;
-/*
-GAP Benchmark Suite
-Kernel: Connected Components (CC)
-Authors: Michael Sutton, Scott Beamer
-Will return comp array labelling each vertex with a connected component ID
-This CC implementation makes use of the Afforest subgraph sampling algorithm [1],
-which restructures and extends the Shiloach-Vishkin algorithm [2].
-[1] Michael Sutton, Tal Ben-Nun, and Amnon Barak. "Optimizing Parallel 
-    Graph Connectivity Computation via Subgraph Sampling" Symposium on 
-    Parallel and Distributed Processing, IPDPS 2018.
-[2] Yossi Shiloach and Uzi Vishkin. "An o(logn) parallel connectivity algorithm"
-    Journal of Algorithms, 3(1):57–67, 1982.
-*/
 
 /* This file computes the load imbalance of sort hash*/
  using namespace std;
